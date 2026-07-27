@@ -3,7 +3,7 @@
 # Tap-style formula: the sdist named by `url` is installed into a private virtualenv,
 # and pip resolves the dependencies (all pure-python or prebuilt wheels) from PyPI at
 # install time. That keeps a version bump to two lines (url + sha256) — the release
-# workflow in samsadsam/kelam rewrites them automatically on every tagged release.
+# workflow in nousdata/kelam rewrites them automatically on every tagged release.
 class Kelam < Formula
   desc "Build and run voice AI agents from the terminal"
   homepage "https://kelam.sh"
